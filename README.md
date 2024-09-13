@@ -2,6 +2,9 @@
 
 Welcome to the "Guess My Number" game! 🎲 This is a simple web-based game where players try to guess a randomly generated number between 1 and 20. This project demonstrates the use of HTML, CSS, and JavaScript to create an interactive game.
 
+![App Screenshot](./img/Screenshot1.png)
+![App Screenshot](./img/Screenshot2.png)
+
 ## Project Overview
 
 In this game, the computer generates a random number within a specified range. The player inputs guesses, and the game provides feedback on whether the guess is too high, too low, or correct. The game continues until the player guesses the correct number.
