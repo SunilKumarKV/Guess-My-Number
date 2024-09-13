@@ -117,3 +117,22 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+footer {
+  position: sticky;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  text-align: center;
+}
+footer .copyright {
+  padding-bottom: 2rem;
+  font-size: 1.4rem;
+}
+footer .copyright a {
+  color: aqua;
+  text-decoration: none;
+}
+footer .copyright a:hover {
+  filter: brightness(85%);
+}
