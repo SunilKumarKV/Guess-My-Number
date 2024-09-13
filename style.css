@@ -136,3 +136,52 @@ footer .copyright a {
 footer .copyright a:hover {
   filter: brightness(85%);
 }
+
+@media (max-width: 700px) {
+  body {
+    font-size: 1.6rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  .guess {
+    font-size: 3rem;
+    width: 20rem;
+    padding: 2rem;
+  }
+}
+@media (max-width: 550px) {
+  h1 {
+    font-size: 5.5vw;
+  }
+  main {
+    flex-direction: column;
+    gap: 8rem;
+  }
+  .message {
+    margin-bottom: 3rem;
+  }
+  .btn {
+    font-size: 1.4rem;
+  }
+  header {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    height: max-content;
+    padding: 8rem 2rem;
+  }
+  .again {
+    position: static;
+  }
+  .between {
+    font-size: 1.2rem;
+    position: static;
+  }
+  .guess {
+    margin-bottom: 2rem;
+  }
+  footer .copyright {
+    font-size: 1.2rem;
+  }
+}
